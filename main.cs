@@ -5,19 +5,18 @@ class Program
     public static void Main(string[] args)
     {
         // This function accepts user input
-        int radius;
-        double pi = Math.PI;
-        double area;
+        int fahrenheit;
+        int celsuis;
 
-        Console.WriteLine("Please enter the radius of the circle");
+        Console.WriteLine("Please enter the fahrenheit");
         Console.WriteLine("");
 
-        Console.Write("radius: ");
-        radius = Convert.ToInt32(Console.ReadLine());
+        Console.Write("fahrenheit: ");
+        fahrenheit = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("");
-        area = (pi * radius) * radius;
+        celsuis = ( fahrenheit - 32 ) * 5/9
 
-        Console.WriteLine("Area: " + area.ToString("0.00") + "cm²");
+        Console.WriteLine("celsuis: " + celsuis + "°");
 
         Console.WriteLine("\nDone.");
     }
