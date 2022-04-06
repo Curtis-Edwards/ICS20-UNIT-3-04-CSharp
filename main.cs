@@ -14,7 +14,7 @@ class Program
         Console.Write("fahrenheit: ");
         fahrenheit = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("");
-        celsuis = ( fahrenheit - 32 ) * 5/9
+        celsuis = ( fahrenheit - 32 ) * 5/9;
 
         Console.WriteLine("celsuis: " + celsuis + "°");
 
